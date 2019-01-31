@@ -1,0 +1,34 @@
+.content{
+	margin: 20px auto;
+}
+
+.workTools{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.content li{
+	list-style-type: none;
+	height: 50px;
+	font-family: KaiTi;
+	font-size: 28px;
+}
+
+.content li a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+.onlineTools{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.blogs{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
