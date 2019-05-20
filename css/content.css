@@ -11,7 +11,7 @@
 .content li{
 	list-style-type: none;
 	height: 50px;
-	font-family: KaiTi;
+	font-family: 'Times New Roman', KaiTi;
 	font-size: 28px;
 }
 
@@ -30,5 +30,48 @@
 .blogs{
 	float: left;
 	width: 33%;
+	text-align: center;
+}
+
+.hr_div{
+	width: 100%;
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+
+	/* Safari、Opera 以及 Chrome */
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+
+.hr_div hr{
+	width: 80%;
+	border: 1;
+	color: grey;
+}
+
+.own{
+	width: 103%;
+	text-align: center;
+	margin-top: 10px;
+
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+
+	/* Safari、Opera 以及 Chrome */
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+
+.own a{
+	text-decoration: none;
+	color: blue;
+	font-size: 28px;
+	font-family: 'Times New Roman', KaiTi;
 	text-align: center;
 }
